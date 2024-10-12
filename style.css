@@ -8,7 +8,6 @@ body {
     background-color:  #e5e5f1;
 }
 
-/* Navbar container */
 nav {
     display: flex;
     justify-content: space-between;
@@ -18,12 +17,10 @@ nav {
     color: black;
 }
 
-/* Logo styling */
 .logo h2 {
     color: black;
 }
 
-/* Navbar links */
 .nav-links {
     list-style: none;
     display: flex;
@@ -44,7 +41,7 @@ nav {
     color: purple;
 }
 
-/* Call to action button */
+/* button */
 .cta .button {
     padding: 10px 20px;
     background-color: rgb(192, 66, 192);
@@ -72,27 +69,26 @@ nav {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Left content styling */
 .left-content {
     flex: 1;
-    padding-right: 20px;
+    padding-right: 30px;
 }
 
 .left-content h1 {
-    font-size: 36px;
+    font-size: 45px;
     margin-bottom: 20px;
     color: #333;
 }
 
 .left-content p {
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 20px;
     color: #666;
 }
 
 .left-content .button {
     padding: 10px 25px;
-    background-color: #f4d03f;
+    background-color: rgb(226, 83, 226);
     color: #333;
     text-decoration: none;
     font-size: 18px;
@@ -104,7 +100,6 @@ nav {
     background-color: #e2b843;
 }
 
-/* Right content (image) styling */
 .right-content img {
     width: 400px;
     height: auto;
