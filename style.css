@@ -32,6 +32,11 @@ header button {
     border-radius: 10px;
 }
 
+header button:hover {
+    color: red;
+    background-color: black;
+}
+
 .testimonials {
     background-color: beige;
     padding: 1px;
